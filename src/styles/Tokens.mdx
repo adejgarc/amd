@@ -1,0 +1,52 @@
+import { Meta, Markdown, ColorPalette, ColorItem, Typeset } from '@storybook/addon-docs/blocks';
+
+<Meta title="GSIS/Tokens/Demo" />
+
+# GSIS Tokens
+
+Tokens definidos.
+
+## Colores
+Usamos una paleta semántica basada en variables CSS.
+
+<ColorPalette>
+  <ColorItem 
+    title="Azules" 
+    subtitle="" 
+    colors={{ 
+      Primary: '#3b82f6', 
+      'Primary Dark': '#2563eb' 
+    }} 
+  />
+  <ColorItem 
+    title="Otros" 
+    subtitle="" 
+    colors={{ 
+      Danger: '#ef4444', 
+      Success: '#22c55e' 
+    }} 
+  />
+  </ColorPalette>
+
+## Espaciados
+
+| Token | Tamaño | Ejemplo |
+| :--- | :--- | :--- |
+| `--spacing-xs` | `4px` | <div style={{width: '4px', height: '16px', background: '#ccc'}} /> |
+| `--spacing-sm` | `8px` | <div style={{width: '8px', height: '16px', background: '#ccc'}} /> |
+| `--spacing-md` | `16px` | <div style={{width: '16px', height: '16px', background: '#ccc'}} /> |
+| `--spacing-lg` | `24px` | <div style={{width: '24px', height: '16px', background: '#ccc'}} /> |
+
+---
+
+## Tipografía (Roboto)
+
+- **Font:** Roboto
+- **Weights:** 300(light), 400(regular), 700(bold)
+
+<Typeset
+  fontFamily="Roboto, sans-serif"
+  fontSizes={['12px', '14px', '16px', '20px', '24px', '32px']}
+  fontWeight={700}
+  sampleText="Probando la demo en casa."
+/>

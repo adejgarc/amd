@@ -1,0 +1,11 @@
+<button 
+  [type]="type()"
+  [disabled]="disabled()"
+  [class]="'btn ' + variant()"
+  (click)="handleInternalClick($event)">
+  
+  <span class="btn-content">
+    <ng-content></ng-content>
+  </span>
+
+</button>

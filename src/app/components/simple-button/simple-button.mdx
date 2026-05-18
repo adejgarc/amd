@@ -1,0 +1,43 @@
+import { Meta, Title, Primary, Controls, Stories, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+import * as SimpleButtonStories from './simple-button.stories';
+
+<Meta of={SimpleButtonStories} />
+
+<Title />
+
+# Botón
+El botón es el elemento de interacción básico. Se utiliza para enviar formularios, confirmar acciones o cerrar diálogos.
+
+## Cuándo usarlo
+- **Primary:** Cuando quieres ver mucho azul.
+- **Secondary:** Cancelar o cosas del estilo.
+- **Danger:** Muy rojo.
+- **Clear:** Vacío;
+
+<Primary />
+
+## Propiedades
+Es un botón muy simple
+
+<Controls />
+
+## Colores 
+
+<ColorPalette>
+  <ColorItem 
+    title="Acciones" 
+    subtitle="Colores principales" 
+    colors={{ Primary: 'var(--color-primary)', Danger: 'var(--color-danger)' }} 
+  />
+</ColorPalette>
+
+API
+---
+Estas serán las opciones...
+
+
+## Variantes
+
+Primary, Secondary, Danger y Clear...
+
+<Stories />

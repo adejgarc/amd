@@ -1,0 +1,24 @@
+.badge {
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-lg);
+    font-family: var(--font-family-main);
+    font-weight: var(--font-weight-bold); 
+    font-size: var(--font-size-sm);
+}
+
+.primary {
+    background: var(--color-primary);
+    color: white;
+}
+
+.danger {
+    background: var(--color-danger);;
+    color: white;
+}
+
+.clear {
+    border: 1px var(--color-light-grey) solid;
+    color: var(--color-text);
+    font-weight: var(--font-weight-light);
+    background: white;
+}
