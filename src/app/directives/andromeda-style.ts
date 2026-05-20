@@ -51,7 +51,7 @@ export class AndromedaStyleDirective implements OnInit {
         }
     }
 
-    private applyStyles0() {
+    private applyStylesOLD() {
         if (!this.host) return;
 
 
